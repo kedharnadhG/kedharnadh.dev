@@ -1,0 +1,35 @@
+Skills.module.css
+
+.marqueeContainer {
+  overflow: hidden;
+  width: 100%;
+  padding: 10px 0;
+  position: relative;
+}
+
+.marquee {
+  display: flex;
+  animation: marquee 10s linear infinite;
+}
+
+.leftMarquee {
+  animation-direction: normal;  /* Scroll from right to left */
+}
+
+.rightMarquee {
+  animation-direction: reverse; /* Scroll from left to right */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee > div {
+  flex-shrink: 0;
+  margin: 0 15px;
+}
