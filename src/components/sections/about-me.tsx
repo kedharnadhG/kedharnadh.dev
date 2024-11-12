@@ -32,7 +32,7 @@ const AboutMeSection = () => {
           <Typography variant="h3">Curious about me? Here you have it:</Typography>
 
           <Typography>
-            I'm a passionate{" "}
+            I&apos;m a passionate{" "}
             <Link
               noCustomization
               externalLink
@@ -48,7 +48,7 @@ const AboutMeSection = () => {
 
           <Typography>
             I began my journey as a web developer in 2023, and since then,
-            I've continued to grow as a Software Engineer, taking on new
+            I&apos;ve continued to grow as a Software Engineer, taking on new
             challenges and learning the latest technologies along the way.
           </Typography>
 
@@ -58,7 +58,7 @@ const AboutMeSection = () => {
           </Typography>
 
           <Typography>
-            When I'm not in full-on developer mode, you can find me on YouTube,
+            When I&apos;m not in full-on developer mode, you can find me on YouTube,
             witnessing the journey of early startups or enjoying some free time. 
             You can also follow me on{" "}
             <Link
@@ -84,8 +84,8 @@ const AboutMeSection = () => {
           </div>
 
           <Typography>
-            One last thing, I'm available for freelance work, so feel free
-            to reach out and say hello! I promise I don't bite 😉
+            One last thing, I&apos;m available for freelance work, so feel free
+            to reach out and say hello! I promise I don&apos;t bite 😉
           </Typography>
         </div>
       </div>

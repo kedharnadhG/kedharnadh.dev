@@ -28,7 +28,7 @@ const Footer = () => {
           >
             coded
           </Link> */}
-          &nbsp; Designed by someone, creatively "borrowed" by me. 😉✨
+          &nbsp; Designed by someone, creatively &quot;borrowed&quot; by me. 😉✨
         </Typography>
       </div>
     </footer>
