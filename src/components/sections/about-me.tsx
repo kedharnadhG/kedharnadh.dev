@@ -1,5 +1,5 @@
 import Image from "next/image";
-import KedharFullPose from "/public/images/kedhar-headshot.jpg";
+import KedharFullPose from "/public/images/kedhar.jpg";
 import Tag from "@/components/data-display/tag";
 import Container from "@/components/layout/container";
 import Typography from "@/components/general/typography";
@@ -29,7 +29,9 @@ const AboutMeSection = () => {
 
         {/* Content */}
         <div className="flex max-w-xl flex-col gap-6">
-          <Typography variant="h3">Curious about me? Here you have it:</Typography>
+          <Typography variant="h3">
+            Curious about me? Here you have it:
+          </Typography>
 
           <Typography>
             I&apos;m a passionate{" "}
@@ -43,7 +45,8 @@ const AboutMeSection = () => {
             </Link>{" "}
             specializing in full-stack development (React.js & Node.js) with a
             focus on data-driven problem-solving, delivering impactful software
-            solutions that enhance user experience, system efficiency, and scalability.
+            solutions that enhance user experience, system efficiency, and
+            scalability.
           </Typography>
 
           <Typography>
@@ -58,9 +61,9 @@ const AboutMeSection = () => {
           </Typography>
 
           <Typography>
-            When I&apos;m not in full-on developer mode, you can find me on YouTube,
-            witnessing the journey of early startups or enjoying some free time. 
-            You can also follow me on{" "}
+            When I&apos;m not in full-on developer mode, you can find me on
+            YouTube, witnessing the journey of early startups or enjoying some
+            free time. You can also follow me on{" "}
             <Link
               noCustomization
               externalLink
@@ -73,10 +76,10 @@ const AboutMeSection = () => {
           </Typography>
 
           <Typography>Finally, some quick bits about me:</Typography>
-          
+
           {/* Updated List Section */}
           <div className="flex flex-col gap-2 md:flex-row md:gap-6">
-            <ul className="list-inside list-disc flex flex-col gap-2">
+            <ul className="flex list-inside list-disc flex-col gap-2">
               <li>B.Tech. in Computer Science & Engineering (9.1 CGPA)</li>
               <li>Avid learner</li>
               <li>A passionate aspiring Software Engineer</li>
