@@ -1,198 +1,198 @@
-import { Github, Twitter, Linkedin } from 'lucide-react';
+import { Github, Twitter, Linkedin } from "lucide-react";
 
-import LogoJavascript from '/public/images/logos/icon-javascript.svg';
-import LogoTypescript from '/public/images/logos/icon-typescript.svg';
-import LogoReact from '/public/images/logos/icon-react.svg';
-import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
-import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
-import LogoExpress from '/public/images/logos/icon-express.svg';
-import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
-import LogoJava from '/public/images/logos/java-svgrepo-com.svg';
-import LogoBootstrap from '/public/images/logos/icons-bootstrap.svg';
-import LogoPython from '/public/images/logos/python-svgrepo-com.svg';
-import LogoVSCode from '/public/images/logos/vs-code-svgrepo-com.svg';
-import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
-import LogoVStudio from '/public/images/logos/visual-studio-svgrepo-com.svg';
-import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
-import LogoSqlServer from '/public/images/logos/microsoft-sql-server-logo-svgrepo-com.svg';
-import LogoMySql from '/public/images/logos/mysql-svgrepo.svg';
-import LogoMUI from '/public/images/logos/material-ui-svgrepo-com.svg';
-import LogoCss from '/public/images/logos/css-3-svgrepo-com.svg';
-import LogoHtml from '/public/images/logos/html-5-svgrepo-com.svg';
-import LogoGit from '/public/images/logos/icon-git.svg';
+import LogoJavascript from "/public/images/logos/icon-javascript.svg";
+import LogoTypescript from "/public/images/logos/icon-typescript.svg";
+import LogoReact from "/public/images/logos/icon-react.svg";
+import LogoNextjs from "/public/images/logos/icon-nextjs.svg";
+import LogoNodejs from "/public/images/logos/icon-nodejs.svg";
+import LogoExpress from "/public/images/logos/icon-express.svg";
+import LogoExpressLight from "/public/images/logos/icon-express-light.svg";
+import LogoJava from "/public/images/logos/java-svgrepo-com.svg";
+import LogoBootstrap from "/public/images/logos/icons-bootstrap.svg";
+import LogoPython from "/public/images/logos/python-svgrepo-com.svg";
+import LogoVSCode from "/public/images/logos/vs-code-svgrepo-com.svg";
+import LogoMongoDB from "/public/images/logos/icon-mongodb.svg";
+import LogoVStudio from "/public/images/logos/visual-studio-svgrepo-com.svg";
+import LogoTailwindcss from "/public/images/logos/icon-tailwindcss.svg";
+import LogoSqlServer from "/public/images/logos/microsoft-sql-server-logo-svgrepo-com.svg";
+import LogoMySql from "/public/images/logos/mysql-svgrepo.svg";
+import LogoMUI from "/public/images/logos/material-ui-svgrepo-com.svg";
+import LogoCss from "/public/images/logos/css-3-svgrepo-com.svg";
+import LogoHtml from "/public/images/logos/html-5-svgrepo-com.svg";
+import LogoGit from "/public/images/logos/icon-git.svg";
 
-import LogoNSG from '/public/images/logos/logo.png';
-import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
-import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
-import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
-import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
+import LogoNSG from "/public/images/logos/logo.png";
+import LogoGreenApex from "/public/images/logos/logo-greenapex.svg";
+import LogoGreenApexLight from "/public/images/logos/logo-greenapex-light.svg";
+import LogoDotnpixel from "/public/images/logos/logo-dotnpixel.svg";
+import LogoDotnpixelLight from "/public/images/logos/logo-dotnpixel-light.svg";
 
-import ProjectFiskil from '/public/images/project-fiskil.png';
-import ProjectVasavi from '/public/images/vasaviTrust.png';
-import ProjectPepehousing from '/public/images/project-pepehousing.png';
+import ProjectFiskil from "/public/images/project-fiskil.png";
+import ProjectVasavi from "/public/images/vasaviTrust.png";
+import MernLMSPage from "/public/images/MERN_LMS.png";
 
-import AvatarKrisztian from '/public/images/avatar-krisztian.png';
-import AvatarEugen from '/public/images/avatar-eugen.png';
-import AvatarDummy from '/public/images/avatar-dummy.svg';
+import AvatarKrisztian from "/public/images/avatar-krisztian.png";
+import AvatarEugen from "/public/images/avatar-eugen.png";
+import AvatarDummy from "/public/images/avatar-dummy.svg";
 
 import {
   ExperienceDetails,
   ProjectDetails,
   TechDetails,
   TestimonialDetails,
-} from '@/lib/types';
+} from "@/lib/types";
 
 export const EXTERNAL_LINKS = {
-  GITHUB: 'https://github.com/KedharNadhG',
-  GITHUB_REPO: 'https://github.com/shahsagarm/sagarshah.dev',
-  TWITTER: 'https://twitter.com/shahsagarm',
-  FIGMA: 'https://www.figma.com/@shahsagarm',
+  GITHUB: "https://github.com/KedharNadhG",
+  GITHUB_REPO: "https://github.com/shahsagarm/sagarshah.dev",
+  TWITTER: "https://twitter.com/shahsagarm",
+  FIGMA: "https://www.figma.com/@shahsagarm",
   FIGMA_FILE:
-    'https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop',
+    "https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop",
 };
 
 export const NAV_LINKS = [
   {
-    label: 'About',
-    href: '#about',
+    label: "About",
+    href: "#about",
   },
   {
-    label: 'Work',
-    href: '#work',
+    label: "Work",
+    href: "#work",
   },
   // {
   //   label: 'Testimonials',
   //   href: '#testimonials',
   // },
   {
-    label: 'Contact',
-    href: '#contact',
+    label: "Contact",
+    href: "#contact",
   },
 ];
 
 export const SOCIAL_LINKS = [
   {
     icon: Github,
-    url: 'https://github.com/KedharNadhG',
+    url: "https://github.com/KedharNadhG",
   },
   {
     icon: Linkedin,
-    url: 'https://www.linkedin.com/in/kedharnadhg',
+    url: "https://www.linkedin.com/in/kedharnadhg",
   },
 ];
 
 export const TECHNOLOGIES: TechDetails[] = [
   {
-    label: 'Javascript',
+    label: "Javascript",
     logo: LogoJavascript,
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
   {
-    label: 'Node.js',
+    label: "Node.js",
     logo: LogoNodejs,
-    url: 'https://nodejs.org/en',
+    url: "https://nodejs.org/en",
   },
   {
-    label: 'Express.js',
+    label: "Express.js",
     logo: LogoExpress,
     darkModeLogo: LogoExpressLight,
-    url: 'https://expressjs.com/',
-  },  
+    url: "https://expressjs.com/",
+  },
   {
-    label: 'React',
+    label: "React",
     logo: LogoReact,
-    url: 'https://react.dev/',
+    url: "https://react.dev/",
   },
   {
-    label: 'MongoDB',
+    label: "MongoDB",
     logo: LogoMongoDB,
-    url: 'https://www.mongodb.com/',
+    url: "https://www.mongodb.com/",
   },
   {
-    label: 'Tailwindcss',
+    label: "Tailwindcss",
     logo: LogoTailwindcss,
-    url: 'https://tailwindcss.com/',
+    url: "https://tailwindcss.com/",
   },
   {
-    label: 'Typescript',
+    label: "Typescript",
     logo: LogoTypescript,
-    url: 'https://www.typescriptlang.org/',
+    url: "https://www.typescriptlang.org/",
   },
   {
-    label: 'Java',
+    label: "Java",
     logo: LogoJava,
-    url: 'https://www.java.com/en/',
+    url: "https://www.java.com/en/",
   },
   {
-    label: 'Next.js',
+    label: "Next.js",
     logo: LogoNextjs,
-    url: 'https://nextjs.org/',
+    url: "https://nextjs.org/",
   },
   {
-    label: 'Git',
+    label: "Git",
     logo: LogoGit,
-    url: 'https://git-scm.com/',
+    url: "https://git-scm.com/",
   },
-  
+
   {
-    label: 'Bootstrap',
+    label: "Bootstrap",
     logo: LogoBootstrap,
-    url: 'https://getbootstrap.com/',
+    url: "https://getbootstrap.com/",
   },
   {
-    label: 'Python',
+    label: "Python",
     logo: LogoPython,
-    url: 'https://www.python.org/',
+    url: "https://www.python.org/",
   },
   {
-    label: 'Visual Studio',
+    label: "Visual Studio",
     logo: LogoVStudio,
-    url: 'https://visualstudio.microsoft.com/',
+    url: "https://visualstudio.microsoft.com/",
   },
   {
-    label: 'VS Code',
+    label: "VS Code",
     logo: LogoVSCode,
-    url: 'https://code.visualstudio.com/docs',
+    url: "https://code.visualstudio.com/docs",
   },
   {
-    label: 'MySql',
+    label: "MySql",
     logo: LogoMySql,
     // darkModeLogo: LogoCypressLight,
-    url: 'https://www.mysql.com/',
+    url: "https://www.mysql.com/",
   },
   {
-    label: 'MS SqlServer',
+    label: "MS SqlServer",
     logo: LogoSqlServer,
-    url: 'https://www.microsoft.com/en-in/sql-server',
+    url: "https://www.microsoft.com/en-in/sql-server",
   },
   {
-    label: 'MUI',
+    label: "MUI",
     logo: LogoMUI,
-    url: 'https://mui.com/',
+    url: "https://mui.com/",
   },
   {
-    label: 'HTML 5',
+    label: "HTML 5",
     logo: LogoHtml,
-    url: 'https://html.com/',
+    url: "https://html.com/",
   },
   {
-    label: 'CSS',
+    label: "CSS",
     logo: LogoCss,
-    url: 'https://web.dev/learn/css',
+    url: "https://web.dev/learn/css",
   },
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
     logo: LogoNSG,
-    logoAlt: 'NSG logo',
-    position: 'Jr. Software Developer',
+    logoAlt: "NSG logo",
+    position: "Jr. Software Developer",
     startDate: new Date(2023, 2),
     endDate: new Date(2024, 6),
     // currentlyWorkHere: true,
     summary: [
-      'Worked for various clients like VasaviTrust, BSES, and in some In-House Projects.',
-      'Worked with a variety of technologies, including  Node.js, Express.js, JS, jQuery, Web Api, MS SqlServer, Tailwindcss, Bootstrap, Asp.Net Core, and others.',
+      "Worked for various clients like VasaviTrust, BSES, and in some In-House Projects.",
+      "Worked with a variety of technologies, including  Node.js, Express.js, JS, jQuery, Web Api, MS SqlServer, Tailwindcss, Bootstrap, Asp.Net Core, and others.",
     ],
   },
   // {
@@ -223,21 +223,40 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: 'Vasavi Trust',
+    name: "Vasavi Trust",
     description:
-      'A platform for efficient room bookings, donor management, and resource allocation with real-time updates and concurrency control across multiple branches.',
-    url: 'http://202.53.11.74/VasaviTrust/MasterLogin.aspx',
+      "A platform for efficient room bookings, donor management, and resource allocation with real-time updates and concurrency control across multiple branches.",
+    url: "http://202.53.11.74/VasaviTrust/MasterLogin.aspx",
     previewImage: ProjectVasavi,
     technologies: [
-      'C#',
-      'ASP.NET Web API',
-      'JavaScript',
-      'jQuery',
-      'Bootstrap',
-      'MS SQL Server',
-      'Twilio',
-      'HTML',
-      'CSS',
+      "C#",
+      "ASP.NET Web API",
+      "JavaScript",
+      "jQuery",
+      "Bootstrap",
+      "MS SQL Server",
+      "Twilio",
+      "HTML",
+      "CSS",
+    ],
+  },
+  {
+    name: "LMS using MERN Stack",
+    description:
+      "A full-stack LMS platform for instructors and students, enabling course creation, enrollment, secure payments via PayPal, and seamless media management with Cloudinary. Built with MERN stack, Shadcn UI, and Tailwind CSS for an optimized learning experience.",
+    url: "https://mern-lms-ua9r.vercel.app",
+    previewImage: MernLMSPage,
+    technologies: [
+      "React",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+      "Tailwindcss",
+      "Shadcn UI",
+      "Context API",
+      "PayPal",
+      "Cloudinary",
+      "JWT",
     ],
   },
   // {
@@ -262,44 +281,28 @@ export const PROJECTS: ProjectDetails[] = [
   //     'Storybook',
   //   ],
   // },
-  // {
-  //   name: 'Pepehousing',
-  //   description:
-  //     'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
-  //   url: 'https://pepehousing.com',
-  //   previewImage: ProjectPepehousing,
-  //   technologies: [
-  //     'React',
-  //     'Next.js',
-  //     'Typescript',
-  //     'Tailwindcss',
-  //     'Redux Toolkit',
-  //     'React Query',
-  //     'Storybook',
-  //   ],
-  // },
 ];
 
 export const TESTIMONIALS: TestimonialDetails[] = [
   {
-    personName: 'Krisztian Gyuris',
+    personName: "Krisztian Gyuris",
     personAvatar: AvatarKrisztian,
-    title: 'Founder - inboxgenie.io',
+    title: "Founder - inboxgenie.io",
     testimonial:
-      'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.',
+      "Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.",
   },
   {
-    personName: 'Eugen Esanu',
+    personName: "Eugen Esanu",
     personAvatar: AvatarEugen,
-    title: 'Founder - shosho.design',
+    title: "Founder - shosho.design",
     testimonial:
-      'Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.',
+      "Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.",
   },
   {
-    personName: 'Joe Matkin',
+    personName: "Joe Matkin",
     personAvatar: AvatarDummy,
-    title: 'Freelancer',
+    title: "Freelancer",
     testimonial:
-      'Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.',
+      "Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.",
   },
 ];
