@@ -1,5 +1,5 @@
 import Image from "next/image";
-import KedharFullPose from "/public/images/kedhar.jpg";
+import KedharFullPose from "/public/images/kedhar.JPG";
 import Tag from "@/components/data-display/tag";
 import Container from "@/components/layout/container";
 import Typography from "@/components/general/typography";
