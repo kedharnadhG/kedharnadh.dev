@@ -29,6 +29,7 @@ import LogoDotnpixelLight from "/public/images/logos/logo-dotnpixel-light.svg";
 
 import ProjectFiskil from "/public/images/project-fiskil.png";
 import ProjectVasavi from "/public/images/vasaviTrust.png";
+import DevTinder from "/public/images/DevTinder.png";
 import MernLMSPage from "/public/images/MERN_LMS.png";
 
 import AvatarKrisztian from "/public/images/avatar-krisztian.png";
@@ -222,6 +223,28 @@ export const EXPERIENCES: ExperienceDetails[] = [
 ];
 
 export const PROJECTS: ProjectDetails[] = [
+  {
+    name: "DevTinder",
+    description:
+      "A Tinder-style MERN stack networking platform for developers to connect, chat in real time, and manage profiles. Features include 1:1 WebSocket chat, daily AWS SES email digests via Cron Jobs, secure JWT cookie-based authentication, and responsive UI with DaisyUI and theme switching.",
+    url: "http://43.204.230.77",
+    previewImage: DevTinder,
+    technologies: [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Socket.io",
+      "AWS EC2",
+      "AWS SES",
+      "Cron Jobs",
+      "Redux Toolkit",
+      "DaisyUI",
+      "JWT",
+      "NGINX",
+      "PM2",
+    ],
+  },
   {
     name: "Vasavi Trust",
     description:
