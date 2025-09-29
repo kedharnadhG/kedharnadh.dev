@@ -2,6 +2,7 @@ import Script from 'next/script';
 import { Inter } from 'next/font/google';
 import { Metadata } from 'next';
 
+
 import './globals.css';
 import Header from '@/components/layout/header';
 import { Providers } from '@/lib/providers';
@@ -12,10 +13,10 @@ const inter = Inter({ subsets: ['latin'] });
 const title = 'Kedharnadh | Full Stack Developer From AndhraPradesh, India.';
 const description =
   'A self-proclaimed Software Engineer who specializes in full stack development (React.js & Node.js), from AndhraPradesh, India.';
-// const url = 'https://sagarshah.dev';
+const url = 'https://kedharnadh-dev.vercel.app/';
 
 export const metadata: Metadata = {
-  // metadataBase: new URL(url),
+  metadataBase: new URL(url),
   title,
   description,
   keywords: [
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     type: 'website',
-    // url,
+    url,
     title,
     description,
     siteName: title,
