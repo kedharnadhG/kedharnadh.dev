@@ -20,6 +20,7 @@ import LogoMUI from "/public/images/logos/material-ui-svgrepo-com.svg";
 import LogoCss from "/public/images/logos/css-3-svgrepo-com.svg";
 import LogoHtml from "/public/images/logos/html-5-svgrepo-com.svg";
 import LogoGit from "/public/images/logos/icon-git.svg";
+import LogoGraphQL from "/public/images/logos/GraphQL.svg";
 
 import LogoNSG from "/public/images/logos/logo.png";
 import LogoGreenApex from "/public/images/logos/logo-greenapex.svg";
@@ -30,6 +31,7 @@ import LogoDotnpixelLight from "/public/images/logos/logo-dotnpixel-light.svg";
 import ProjectFiskil from "/public/images/project-fiskil.png";
 import ProjectVasavi from "/public/images/vasaviTrust.png";
 import DevTinder from "/public/images/DevTinder.png";
+import NetflixGPT from "/public/images/NetflixGPT.png";
 import MernLMSPage from "/public/images/MERN_LMS.png";
 
 import AvatarKrisztian from "/public/images/avatar-krisztian.png";
@@ -49,7 +51,7 @@ export const EXTERNAL_LINKS = {
   // TWITTER: "https://twitter.com/shahsagarm",
   // FIGMA: "https://www.figma.com/@shahsagarm",
   // FIGMA_FILE:
-    // "https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop",
+  // "https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop",
 };
 
 export const NAV_LINKS = [
@@ -125,9 +127,30 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: "https://www.java.com/en/",
   },
   {
+    label: "Python",
+    logo: LogoPython,
+    url: "https://www.python.org/",
+  },
+  {
     label: "Next.js",
     logo: LogoNextjs,
     url: "https://nextjs.org/",
+  },
+  {
+    label: "MySql",
+    logo: LogoMySql,
+    // darkModeLogo: LogoCypressLight,
+    url: "https://www.mysql.com/",
+  },
+  {
+    label: "GraphQL",
+    logo: LogoGraphQL,
+    url: "https://graphql.org/learn/",
+  },
+  {
+    label: "MS SqlServer",
+    logo: LogoSqlServer,
+    url: "https://www.microsoft.com/en-in/sql-server",
   },
   {
     label: "Git",
@@ -141,11 +164,6 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: "https://getbootstrap.com/",
   },
   {
-    label: "Python",
-    logo: LogoPython,
-    url: "https://www.python.org/",
-  },
-  {
     label: "Visual Studio",
     logo: LogoVStudio,
     url: "https://visualstudio.microsoft.com/",
@@ -154,17 +172,6 @@ export const TECHNOLOGIES: TechDetails[] = [
     label: "VS Code",
     logo: LogoVSCode,
     url: "https://code.visualstudio.com/docs",
-  },
-  {
-    label: "MySql",
-    logo: LogoMySql,
-    // darkModeLogo: LogoCypressLight,
-    url: "https://www.mysql.com/",
-  },
-  {
-    label: "MS SqlServer",
-    logo: LogoSqlServer,
-    url: "https://www.microsoft.com/en-in/sql-server",
   },
   {
     label: "MUI",
@@ -223,6 +230,24 @@ export const EXPERIENCES: ExperienceDetails[] = [
 ];
 
 export const PROJECTS: ProjectDetails[] = [
+  {
+    name: "NetflixGPT",
+    description:
+      "An AI-powered Netflix-style movie recommendation platform built with React and Redux Toolkit. Integrates Gemini Generative AI APIs for personalised, genre-mixed movie suggestions, TMDB API for real-time movie data, and Firebase Authentication for secure sign-in and session management. Features include GPT-powered search, dynamic carousels, responsive UI with Tailwind CSS, and seamless state management for optimal user experience.",
+    url: "https://netflix-gpt-five-zeta.vercel.app/",
+    previewImage: NetflixGPT, // import your image asset accordingly
+    technologies: [
+      "React.js",
+      "Redux Toolkit",
+      "Firebase",
+      "Gemini API",
+      "TMDB API",
+      "Tailwind CSS",
+      "Responsive UI",
+      "GPT-powered search",
+    ],
+  },
+
   {
     name: "DevTinder",
     description:
